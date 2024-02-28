@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.ts",
-    "register": "node src/register-commands.ts"
+    "register": "node src/register.ts",
+    "delete": "node src/delete.ts"
   },
   "keywords": [],
   "author": "",
