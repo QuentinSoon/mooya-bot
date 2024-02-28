@@ -2,22 +2,17 @@
   "name": "mooya-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.ts",
-    "register": "node src/register.ts",
-    "delete": "node src/delete.ts"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^20.11.20",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5",
-    "nodemon": "^3.1.0",
-    "path": "^0.12.7",
-    "ts-node": "^10.9.2"
+    "nodemon": "^3.1.0"
   }
 }
